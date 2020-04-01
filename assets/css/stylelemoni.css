@@ -1,0 +1,190 @@
+/*********************** CSS RESET *********************/
+  /* http://meyerweb.com/eric/tools/css/reset/
+     v2.0 | 20110126
+     License: none (public domain)
+  */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+/*article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+   display: block; */
+}
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*********************** LEMONI CSS *************************/
+
+.flex{
+  display : flex;
+}
+
+/*** POLICES ****/
+body{
+  font-family: 'PT Sans';
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.black{
+  color: black;
+}
+.white{
+  color : white;
+}
+
+.yellow{
+  color: #ffdd59;
+}
+
+.uppercase{
+  text-transform: uppercase;
+}
+
+.subtitle{
+  font-size: 0.7em;
+  padding-top : 8px;
+}
+
+h1{
+  font-size: 1.7em;
+}
+
+.title_section{
+  margin-bottom: 20px;
+}
+
+.underline{
+width: 350px;
+height: 1px;
+background-color: #d2dae2;
+}
+
+.underline_black{
+  border-bottom : 3px black solid;
+}
+
+.underline_yellow{
+  border-bottom : 3px #ffdd59 solid;
+}
+
+/* DIMENSIONS ET STYLE DE BLOC */
+
+.bg-black{
+  background-color: black;
+}
+
+.bg-grey{
+  background-color: #808e9b;
+}
+
+.bg-yellow{
+  background-color: #ffd32a;
+}
+
+.container{
+  height: 40vh;
+  width: 100%;
+  padding: 20 140px;
+}
+
+.head_txt{
+  width: 45%;
+  height: 40vh;
+  padding-top: 50px;
+}
+
+.head_img{
+  height: 40vh;
+  width: 50%;
+}
+
+.alert-coupon{
+  height: 6vh;
+  font-size: 0.8em;
+  justify-content: space-between;
+  padding-top: 8px;
+}
+
+.section{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* BOUTONS */
+
+.button_head-menu{
+  margin-top: 30px;
+  font-size: 0.7em;
+}
+
+.button_alert-coupon{
+  font-size: 0.9em;
+  height: 3vh;
+  padding-top: 0px;
+}
+
+.button_cart{
+  margin-top: 10px;
+}
+
+/* DIM + STYLE DE CARD */
+
+.card{
+box-shadow: 0 0 0 0!important;
+}
+.card-img-top{
+  width: 200px;
+  height: 200px;
+  border: 1px #d2dae2 solid;
+  margin: auto;
+}
+
+.card-body{
+  text-align: center;
+}
+
+.card-title{
+  margin: 0;
+}
+
+.price{
+  margin: 8px;
+}
